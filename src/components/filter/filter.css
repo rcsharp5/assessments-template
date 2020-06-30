@@ -1,0 +1,55 @@
+.filterContainer{
+	display: flex;
+	justify-content: center;
+	margin:8px;
+}
+.filterContainer input {
+	margin-right:10px;
+	border: 0;
+	padding: 22px 18px;
+	width: 300px;
+	font-size: 18px;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+}
+.filterContainer .sortButton{
+	display: flex;
+	align-items: center;
+	background-color: transparent !important;
+	border:none;
+	color:rgb(70, 70, 252);
+	cursor: pointer;
+	font-size: 20px;
+    font-weight: bold;
+}
+.filterContainer .sortButton:hover{
+	color:blue
+}
+.sortButton:focus { outline: none; }
+.sortButton i {
+	margin: 2px;
+	
+}
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	
+	border-bottom: 5px solid black;
+  }
+  
+  .arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	
+	border-top: 5px solid black;
+  }
+  .sortSection{
+	  display: flex;
+	  justify-content: center;
+	align-items: center;
+	font-size: 20px;
+    font-weight: bold;
+  }

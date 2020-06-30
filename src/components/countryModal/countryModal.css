@@ -1,0 +1,83 @@
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+  }
+
+
+
+.modal .container{
+	display:flex;
+	flex-direction: column;
+	z-index: 100;
+	box-shadow: 4px 7px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius: 0px 0px 5px 5px;
+	position:fixed;
+	background: white;
+	width: auto;
+	height: auto;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	padding: 10px;
+	min-width: 25%;
+}
+
+.container .titleSection{
+	display: flex;
+	align-items: center;
+	margin:10px;
+	padding:10px;
+	border-bottom: 1px solid grey;
+}
+.container .titleSection img{
+	max-width: 100px;
+	padding:5px
+}
+.container .titleSection .title{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	flex:1;
+	align-self: center;
+}
+.container .titleSection .title .name{
+	font-size: 20px;
+	font-weight: bold;
+}
+.container .titleSection .title .subName{
+	font-size: 12px;
+}
+.countrySection{
+	display: flex;
+	flex-direction: column;
+}
+
+.countrySection .countrySectionTitle{
+	padding:10px;
+	border-bottom: 1px solid grey;
+	flex:1;
+}
+
+.countrySection  .sectionValue{
+	padding:5px;
+	text-align: center;
+}
+
+.attributeSection{
+	display: flex;
+	flex-wrap: wrap;
+}
+.attributeSection .attribute{
+	padding:5px;
+	margin:5px;
+	display: flex;
+}
+.attributeSection .attribute .attributeName{
+	margin-right:3px;
+	font-weight: bold;
+}
